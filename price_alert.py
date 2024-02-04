@@ -10,7 +10,7 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:@localhost/authenticaion'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:@localhost/authentication'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['JWT_SECRET_KEY'] = 'ooo'
 app.config['JWT_ACCESS_TOKEN_EXPIRES'] = 3600
